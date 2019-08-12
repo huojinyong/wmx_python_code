@@ -6,9 +6,6 @@ class SoundManager:
 
     def __init__(self):
         self._init_music()
-        self.sound_be_attacked = self._load_sound('be_attacked.ogg')
-        self.sound_be_killed = self._load_sound('be_killed.ogg')
-        self.sound_fail = self._load_sound('gameover.ogg')
         self.sound_KO = self._load_sound('sound_KO.ogg')
         self.sound_ikun = self._load_sound('sound_ikun.ogg')
         self.sound_feibiao = self._load_sound('feibiao.ogg')
